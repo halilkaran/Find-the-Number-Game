@@ -5,9 +5,8 @@ const again = document.querySelector(".again");
 const check = document.querySelector(".check");
 
 let score = 10;
- let attempt = 0;
+let attempt = 0;
 check.addEventListener("click", () => {
- 
   const guess = Number(document.querySelector(".guess").value);
   const msg = document.querySelector(".msg");
 

@@ -1,13 +1,10 @@
 @import "https://fonts.googleapis.com/css?family=Ubuntu:400,700italic";
 @import "https://fonts.googleapis.com/css?family=Cabin:400";
 * {
-    
   box-sizing: border-box;
-  
 }
 
-body { 
-    
+body {
   background: #000;
   background-size: cover;
   font-size: 10px;
@@ -22,16 +19,14 @@ body {
 Stark Industries Logo
 ========================================= */
 #logo {
-    
   animation: logo-entry 4s ease-in;
   width: 100rem;
-  
+
   position: relative;
   z-index: 40;
 }
 
 h1 {
-    
   animation: text-glow 2s ease-out infinite alternate;
   font-family: "Ubuntu", sans-serif;
   color: #00a4a2;
@@ -42,7 +37,6 @@ h1 {
   text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
     0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   top: 50px;
-  
 }
 h1:before {
   animation: before-glow 2s ease-out infinite alternate;
@@ -129,7 +123,6 @@ Log in form
     0 2px 0 #000;
 }
 .stark-login button {
- 
   animation: input-entry 3s ease-in;
   background: #222;
   background: linear-gradient(#333333, #222222);
