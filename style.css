@@ -25,7 +25,7 @@ Stark Industries Logo
     
   animation: logo-entry 4s ease-in;
   width: 100rem;
-  margin-left: 55rem;
+  
   position: relative;
   z-index: 40;
 }
